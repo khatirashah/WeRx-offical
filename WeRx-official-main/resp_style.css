@@ -1,0 +1,168 @@
+
+/* Code for Mobile responsiveness */
+
+
+@media screen and (max-width: 576px){
+    /* -----------  Navbar ------------- */
+    .navbar button{
+        color: aliceblue;
+        margin-top: -6vw;
+    }
+    .navbar-brand img{
+        /* margin-top: -3vw; */
+        width: 25vw;
+        height: 25vw;
+    }
+    .navbar .login-btn{
+        margin-top: 2vw;
+    }
+
+    /* -----------  SLOGAN ------------- */
+
+
+    .slogan{
+        flex-direction: column;
+    }
+    .slogan-left{
+        margin-top: 10vw;
+        text-align: center;
+    }
+    .slogan-left h1{
+        font-size: 7vw;
+    }
+    .slogan-right img{
+        margin-top: 5vw;
+        width: 60vw;
+        height: 60vw;
+    }
+
+
+    /* -----------ABOUT US------------- */
+    .aboutUS{
+        padding-bottom: 0vw;
+    }
+    .aboutUS h1{
+        font-size: 9vw;
+    }
+    .aboutUs-inner{
+        display: block;
+        flex-direction: column;
+        height: 145vw;
+        width: 100vw;
+    }
+    .aboutUs-inner .pic{
+        width: 100vw;
+        height: 100vw;
+    }
+    .aboutUs-inner .para{
+        font-size: 5vw;
+        margin-top: 15vw;
+        text-align: center;
+        width: 100vw;
+        height: 20vw;
+    }
+    /* -----------OUR SERVICE------------- */
+    .ourService h1{
+        margin-top: 5vw;
+        font-size: 8vw;
+    }
+    .ourService h2{
+        font-size: 5.5vw;
+    }
+    .ourSevice-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourSevice-cards h2{
+        font-size:5vw;
+    }
+    .ourSevice-cards .card{
+        width: 65vw;
+        height: 65vw;
+        margin-top: 5vw;
+    }
+    .ourService .card:nth-child(2){
+        margin-top: 5vw;
+    }
+    .ourService .card img{
+        height: 45vw;
+        margin-bottom: 1vw;
+    }
+
+
+    /*------------ OUR TEAM-------------- */
+    .ourTeam{
+    }
+    .ourTeam h1{
+        font-size: 8vw;
+        margin-top: 5vw;
+    }
+    .ourTeam-inner .row{
+        display: block;
+    }
+    .ourTeam .img img{
+        height: 78vw;
+        width: 100%;
+    }
+    .ourTeam-inner h1{
+        font-size: 6vw;
+        width: 80vw;
+        text-align: center;
+        margin-left: 5vw;
+    }
+    .wePower{
+        float: right;
+        font-size: 5.5vw;
+    }
+
+    /*------------ Contact Us-------------- */
+    .contactUs-inner .row{
+        display: inline;
+    }
+    .contactUs h1{
+        margin-top: 5vw;
+        font-size:8vw;
+    }
+    .contactUs-inner h3{
+        font-size: 5vw;
+        text-align: center;
+    }
+    /* Contact Us inner Right */
+    .contactUs-inner .row .left .contact-details{
+        width: 100%;
+    }
+    .contact-details h1{
+        font-size: 6vw;
+    }
+    .contact-details div{
+        width: 64vw;
+        padding: 3.5vw 2vw 0vw 4.5vw;
+        font-size: 3.5vw;   
+    }
+    .icons{
+        font-size: 8vw;
+        float: none;
+        display: block;
+        text-align: center;
+        color: #d0e5f2;
+        margin-left: 7vw;
+    }
+
+    /* Contact Us inner Right */
+    .contactUs .right .card{
+        width: 70vw;
+        height: 100%;
+    }
+    .contactUs .right .card label{
+        font-size: 5vw;
+    }
+    .contactUs .right .card input::placeholder{
+        font-size: 4vw;
+    }
+    .contactUs .right .card button{
+        display: block;
+        align-self: center;
+        width: 41vw;
+    }
+}
+
